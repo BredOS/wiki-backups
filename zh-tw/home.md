@@ -12,7 +12,7 @@ dateCreated: 2024-07-19T14:36:23.702Z
 
 ## 概述
 
-編寫和改進文檔 歡迎來到 BredOS 文檔！BredOS 是一個基於 Arch 的用戶友好型 Linux 發行版，專門為基於 ARM 的單板計算機（SBC）設計。本文檔將指導您完成 BredOS 的安裝、配置和使用。 本文檔將指導您完成 BredOS 的安裝、配置和使用。
+歡迎來到 BredOS 文檔！ BredOS 是一個基於 Arch 的用戶友好型 Linux 發行版，專門為基於 ARM 的單板計算機（SBC）設計。 本文檔將指導您完成 BredOS 的安裝、配置和使用。
 
 ## 目錄
 
@@ -28,7 +28,7 @@ dateCreated: 2024-07-19T14:36:23.702Z
 
 ## 簡介
 
-BredOS 旨在為基於 ARM 的單板計算機用戶提供無縫且用戶友好的體驗。通過利用 Arch Linux 的強大功能和靈活性，BredOS 提供了一個可以根據廣泛用例進行自定義的強大平台。 BredOS 維基
+BredOS 旨在為基於 ARM 的單板計算機用戶提供無縫且用戶友好的體驗。 通過利用 Arch Linux 的強大功能和靈活性，BredOS 提供了一個可以根據廣泛用例進行自定義的強大平台。
 
 ## 功能
 
@@ -50,7 +50,7 @@ BredOS 旨在為基於 ARM 的單板計算機用戶提供無縫且用戶友好�
 
 ## 軟件包管理
 
-BredOS 使用 `pacman`，這是來自 Arch Linux 的軟件包管理器。以下是一些常用命令： 以下是一些常用命令：
+BredOS 使用 `pacman`，這是來自 Arch Linux 的軟件包管理器。 以下是一些常用命令：
 
 - 更新軟件包列表：`sudo pacman -Syu`
 - 安裝軟件包：`sudo pacman -S [package_name]`
