@@ -2,7 +2,7 @@
 title: Homepage
 description: 
 published: true
-date: 2024-07-19T00:46:16.543Z
+date: 2024-07-19T14:23:41.107Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-24T12:37:36.410Z
@@ -75,4 +75,4 @@ BredOS is an open-source project, and contributions are welcome! You can contrib
 - Write and improve documentation
 - Help other users in the community forums and chat
 
-For more information on contributing, visit our [GitHub](http://github.com/BredOS) or you can message us on [Discord](https://discord.gg/jwhxuyKXaa).
+For more information on contributing, visit our [GitHub](http://github.com/BredOS) or you can message us on [Discord](https://discord.gg/jwhxuyKXaa). 
