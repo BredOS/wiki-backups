@@ -28,7 +28,7 @@ BredOS 主页 欢迎来到 BredOS 文档！BredOS 是一个基于 Arch 的用户
 
 ## 简介
 
-BredOS 旨在为基于 ARM 的单板计算机用户提供无缝且用户友好的体验。通过利用 Arch Linux 的强大功能和灵活性，BredOS 提供了一个可以根据广泛用例进行自定义的强大平台。 BredOS 维基
+BredOS 旨在为基于 ARM 的单板计算机用户提供无缝且用户友好的体验。通过利用 Arch Linux 的强大功能和灵活性，BredOS 提供了一个可以根据广泛用例进行自定义的强大平台。 通过利用 Arch Linux 的强大功能和灵活性，BredOS 提供了一个可以根据广泛用例进行自定义的强大平台。
 
 ## 功能
 
