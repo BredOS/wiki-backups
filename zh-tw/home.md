@@ -1,77 +1,94 @@
 ---
-title: BredOS 主頁
-description: 
+title: Homepage
+description: null
 published: true
-date: 2024-07-19T14:36:23.702Z
-tags: 
+date: 2024-07-19T14:23:43.515Z
+tags: null
 editor: markdown
-dateCreated: 2024-07-19T14:36:23.702Z
+dateCreated: 2022-08-24T12:37:36.410Z
 ---
 
-# BredOS 維基
+# The BredOS Wiki
 
-## 概述
-歡迎來到 BredOS 文檔！BredOS 是一個基於 Arch 的用戶友好型 Linux 發行版，專門為基於 ARM 的單板計算機（SBC）設計。本文檔將指導您完成 BredOS 的安裝、配置和使用。
+## Overview
 
-## 目錄
-1. [簡介](#簡介)
-2. [功能](#功能)
-3. [系統要求](#系統要求)
-4. [安裝](/installation)
-6. [軟件包管理](#軟件包管理)
-7. [故障排除](#故障排除)
-8. [常見問題](#常見問題)
-9. [社區與支持](#社區與支持)
-10. [貢獻](#貢獻)
+Welcome to the BredOS documentation! BredOS is a user-friendly Arch-based Linux distribution specifically designed for ARM-based single board computers (SBCs). This documentation will guide you through the installation, configuration, and usage of BredOS.
 
-## 簡介
-BredOS 旨在為基於 ARM 的單板計算機用戶提供無縫且用戶友好的體驗。通過利用 Arch Linux 的強大功能和靈活性，BredOS 提供了一個可以根據廣泛用例進行自定義的強大平台。
+## Table of Contents
 
-## 功能
-- **用戶友好界面**：簡化且直觀的用戶界面，便於導航和使用。
-- **基於 Arch**：建立在 Arch Linux 之上，確保訪問到大量的軟件包和滾動更新模型。
-- **ARM 支持**：針對基於 ARM 的單板計算機進行了優化，非常適合 Rock 5B 等設備。
-- **輕量級**：最小化冗餘，確保系統輕量且響應迅速。
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [System Requirements](#system-requirements)
+4. [Installation](/installation)
+5. [Package Management](#package-management)
+6. [Troubleshooting](#troubleshooting)
+7. [FAQ](#faq)
+8. [Community and Support](#community-and-support)
+9. [Contributing](#contributing)
 
-## 系統要求
-- **支持設備**：Radxa Rock 5 A/B/C、Orange Pi 5/5+、Khadas Edge 2、Khadas VIM 4、Cool Pi 4B
-- **最低內存**：2 GB
-- **存儲**：16 GB 或更大的 microSD 卡
-- **網絡**：可選
+## Introduction
 
-## 安裝
-請參閱我們的 [安裝指南](/installation) 頁面以獲取更多信息。
+BredOS aims to provide a seamless and user-friendly experience for users of ARM-based single board computers. By leveraging the power and flexibility of Arch Linux, BredOS offers a robust platform that can be customized to fit a wide range of use cases.
 
-## 軟件包管理
-BredOS 使用 `pacman`，這是來自 Arch Linux 的軟件包管理器。以下是一些常用命令：
-- 更新軟件包列表：`sudo pacman -Syu`
-- 安裝軟件包：`sudo pacman -S [package_name]`
-- 移除軟件包：`sudo pacman -R [package_name]`
-- 搜索軟件包：`pacman -Ss [package_name]`
+## Features
 
-## 故障排除
-如果您遇到 BredOS 的問題，歡迎加入我們的 [Discord](https://discord.gg/jwhxuyKXaa) 進行咨詢。
+- **User-Friendly Interface**: A simplified and intuitive user interface for easy navigation and use.
+- **Arch-Based**: Built on top of Arch Linux, ensuring access to a vast repository of packages and a rolling release model.
+- **ARM Support**: Optimized for ARM-based single board computers, making it ideal for devices like the Rock 5B, and more.
+- **Lightweight**: Minimal bloat, ensuring a lightweight and responsive system.
 
-## 常見問題
-### 問：BredOS 支持哪些設備？
-答：BredOS 支持各種基於 ARM 的單板計算機，包括 Radxa Rock 5A/B/C、Orange Pi 5/5+ 等。
+## System Requirements
 
-### 問：如何更新 BredOS？
-答：您可以使用 `pacman` 軟件包管理器通過命令 `sudo pacman -Syu` 更新 BredOS。
+- **Supported Devices**: Radxa Rock 5 A/B/C, Orange Pi 5/5+, Khadas Edge 2, Khadas VIM 4, Cool Pi 4B
+- **Minimum RAM**: 2 GB
+- **Storage**: 16 GB microSD card or larger
+- **Network**: Optional
 
-### 問：在哪裡可以找到更多的軟件包？
-答：您可以在 Arch 用戶倉庫（AUR）中找到額外的軟件包，並使用 `yay` 或 `paru` 安裝它們。
+## Installation
 
-## 社區與支持
-加入 BredOS 社區，獲取支持、分享想法並為項目做出貢獻：
+Read more on our [Installation guide](/installation) page.
+
+## Package Management
+
+BredOS uses `pacman`, the package manager from Arch Linux. Here are some common commands:
+
+- Update package list: `sudo pacman -Syu`
+- Install a package: `sudo pacman -S [package_name]`
+- Remove a package: `sudo pacman -R [package_name]`
+- Search for a package: `pacman -Ss [package_name]`
+
+## Troubleshooting
+
+If you encounter issues with BredOS, you are welcome to join our [discord](https://discord.gg/jwhxuyKXaa).
+
+## FAQ
+
+### Q: What devices are supported by BredOS?
+
+A: BredOS supports a variety of ARM-based single board computers, including .
+
+### Q: How do I update BredOS?
+
+A: You can update BredOS using the `pacman` package manager with the command `sudo pacman -Syu`.
+
+### Q: Where can I find additional software packages?
+
+A: You can find additional software packages in the Arch User Repository (AUR) and install them using `yay` or `paru`.
+
+## Community and Support
+
+Join the BredOS community to get support, share ideas, and contribute to the project:
+
 - [Discord](https://discord.gg/jwhxuyKXaa)
 - [GitHub](http://github.com/BredOS)
 
-## 貢獻
-BredOS 是一個開源項目，歡迎貢獻！您可以通過以下方式進行貢獻：
-- 報告錯誤和問題
-- 提交補丁和改進
-- 編寫和改進文檔
-- 在社區論壇和聊天中幫助其他用戶
+## Contributing
 
-有關更多貢獻信息，請訪問我們的 [GitHub](http://github.com/BredOS) 或通過 [Discord](https://discord.gg/jwhxuyKXaa) 與我們聯繫。
+BredOS is an open-source project, and contributions are welcome! You can contribute in the following ways:
+
+- Report bugs and issues
+- Submit patches and improvements
+- Write and improve documentation
+- Help other users in the community forums and chat
+
+For more information on contributing, visit our [GitHub](http://github.com/BredOS) or you can message us on [Discord](https://discord.gg/jwhxuyKXaa).
