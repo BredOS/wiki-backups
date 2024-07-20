@@ -2,7 +2,7 @@
 title: Homepage
 description: 
 published: true
-date: 2024-07-19T14:23:43.515Z
+date: 2024-07-20T07:12:12.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-24T12:37:36.410Z
@@ -65,6 +65,7 @@ A: You can find additional software packages in the Arch User Repository (AUR) a
 
 ## Community and Support
 Join the BredOS community to get support, share ideas, and contribute to the project:
+- [Telegram](https://t.me/bredoslinux)
 - [Discord](https://discord.gg/jwhxuyKXaa)
 - [GitHub](http://github.com/BredOS)
 
