@@ -2,7 +2,7 @@
 title: How to install steam on ARM
 description: 
 published: true
-date: 2024-07-20T07:04:41.476Z
+date: 2024-07-20T08:56:15.971Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-20T07:04:41.476Z
@@ -16,10 +16,9 @@ This guide will walk you through the process of installing Steam on BredOS, incl
 1. [Update Your System](#step-1-update-your-system)
 2. [Add the BredOS Multilib Repository](#step-2-add-the-bredos-multilib-repository)
 3. [Update the Pacman Database](#step-3-update-the-pacman-database)
-4. [Install Box86 and Box64](#step-5-install-box86-and-box64)
-5. [Install Steam](#step-4-install-steam)
+4. [Install Box86 and Box64](#step-4-install-box86-and-box64)
+5. [Install Steam](#step-5-install-steam)
 6. [Running Steam](#step-6-running-steam)
-7. [Troubleshooting](#troubleshooting)
 
 ## Step 1: Update Your System
 
@@ -44,7 +43,7 @@ And add the following lines to the end of the file:
 Include = /etc/pacman.d/bredos-mirrorlist
 ```
 
-Save the file and exit the text editor (<kbd>Ctrl</kbd> + <kbd>X</kbd>, then <kbd>Ctrl</kbd> + <kbd>Y</kbd>, then <kbd>Enter</kbd> ).
+Save the file and exit the text editor (<kbd>Ctrl</kbd> + <kbd>X</kbd>, then <kbd>Ctrl</kbd> + <kbd>Y</kbd>, then <kbd>Enter</kbd>).
 
 ## Step 3: Update the Pacman Database
 
