@@ -1,9 +1,9 @@
 ---
 title: 目录
-description: 
+description: null
 published: true
-date: 2024-07-20T08:16:35.319Z
-tags: 
+date: 2024-07-20T07:12:44.807 Z
+tags: null
 editor: markdown
 dateCreated: 2024-07-19T14:28:40.812Z
 ---
@@ -79,6 +79,7 @@ BredOS 使用 `pacman`，这是来自 Arch Linux 的软件包管理器。以下�
 
 加入 BredOS 社区，获取支持、分享想法并为项目做出贡献：
 
+- [Telegram](https://t.me/bredoslinux)
 - [Discord](https://discord.gg/jwhuyKXaa)
 - [GitHub](http://github.com/BredOS)
 
@@ -91,4 +92,4 @@ BredOS 是一个开源项目，欢迎贡献！您可以通过以下方式进行�
 - 编写和改进文档
 - 在社区论坛和聊天中帮助其他用户
 
-有关更多贡献信息，请访问我们的 [GitHub](http://github.com/BredOS) 或通过 [Discord](https://discord.gg/jwhxuyKXaa) 与我们联系。
+有关贡献的更多信息，请访问我们的 [GitHub](http://github.com/BredOS)，或者您可以在 [Discord](https://discord.gg/jwhxuyKXaa) 上给我们留言，或加入我们的 [Telegram](https://t.me/bredoslinux)。
