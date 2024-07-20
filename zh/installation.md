@@ -25,7 +25,7 @@ dateCreated: 2024-07-19T00:42:37.505Z
 
 ### 正在下载 BredOS
 
-从 [官方网站] (https://bredos.org/download.html) 下载最新的 BredOS 图像。
+从 [官方网站](https://bredos.org/download.html)下载最新的 BredOS 图像。
 
 ### 创建安装媒体
 
