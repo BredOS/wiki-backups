@@ -42,10 +42,10 @@ sudo nano /etc/pacman.conf
 
 ```ini
 [BredOS-multilib]
-包含 = /etc/pacman.d/bredos-mirorlist
+Include = /etc/pacman.d/bredos-mirrorlist
 ```
 
-保存文件并退出文本编辑器 (<kbd>Ctrl</kbd> + <kbd>X</kbd>, 然后 <kbd>Ctrl</kbd> + <kbd>Y</kbd>, 然后 <kbd>输入</kbd>)。
+保存文件并退出文本编辑器 (<kbd>Ctrl</kbd> + <kbd>X</kbd>, 然后 <kbd>Ctrl</kbd> + <kbd>Y</kbd>, 然后 <kbd>Enter</kbd>)。
 
 ## 第 3 步：更新Pacman 数据库
 
