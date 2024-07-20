@@ -1,79 +1,78 @@
 ---
-title: How to install steam on ARM
+title: 如何在 ARM 上安裝 Steam
 description: null
 published: true
-date: 2024-07-20T07:04:41.476Z
+date: 2024-07-20T08:56:15.971Z
 tags: null
 editor: markdown
 dateCreated: 2024-07-20T07:04:41.476Z
 ---
 
-# Installing Steam on BredOS (ARM)
+# 在 BredOS (ARM) 上安裝 Steam
 
-This guide will walk you through the process of installing Steam on BredOS, including the necessary steps to add the BredOS multilib repository and install `box86-rk3xxx` and `box64-rk3xxx` for compatibility with arm.
+這份指南將引導你完成在 BredOS 上安裝 Steam 的過程，包括添加 BredOS 多庫存儲庫以及安裝 `box86-rk3xxx` 和 `box64-rk3xxx` 以實現 ARM 的兼容性。
 
 ## 目錄
 
-1. [Update Your System](#step-1-update-your-system)
-2. [Add the BredOS Multilib Repository](#step-2-add-the-bredos-multilib-repository)
-3. [Update the Pacman Database](#step-3-update-the-pacman-database)
-4. [Install Box86 and Box64](#step-5-install-box86-and-box64)
-5. [Install Steam](#step-4-install-steam)
-6. [Running Steam](#step-6-running-steam)
-7. [故障排除](#故障排除)
+1. [更新系統](#步驟-1更新系統)
+2. [添加 BredOS 多庫存儲庫](#步驟-2添加-bredos-多庫存儲庫)
+3. [更新 Pacman 資料庫](#步驟-3更新-pacman-資料庫)
+4. [安裝 Box86 和 Box64](#步驟-4安裝-box86-和-box64)
+5. [安裝 Steam](#步驟-5安裝-steam)
+6. [運行 Steam](#步驟-6運行-steam)
 
-## Step 1: Update Your System
+## 步驟 1：更新系統
 
-Before you start, make sure your system is up-to-date.
+在開始之前，請確保你的系統是最新的。
 
 ```bash
 sudo pacman -Syu
 ```
 
-## Step 2: Add the BredOS Multilib Repository
+## 步驟 2：添加 BredOS 多庫存儲庫
 
-To install Steam and the necessary translation layers, you need to add the BredOS multilib repository. Open your `/etc/pacman.conf` file in a text editor with root permissions.
+要安裝 Steam 和必要的翻譯層，你需要添加 BredOS 多庫存儲庫。 用 root 權限的文本編輯器打開你的 `/etc/pacman.conf` 文件。
 
 ```sh
 sudo nano /etc/pacman.conf
 ```
 
-And add the following lines to the end of the file:
+然後將以下行添加到文件末尾：
 
 ```ini
 [BredOS-multilib]
 Include = /etc/pacman.d/bredos-mirrorlist
 ```
 
-Save the file and exit the text editor (<kbd>Ctrl</kbd> + <kbd>X</kbd>, then <kbd>Ctrl</kbd> + <kbd>Y</kbd>, then <kbd>Enter</kbd> ).
+保存文件並退出文本編輯器（<kbd>Ctrl</kbd> + <kbd>X</kbd>，然後 <kbd>Ctrl</kbd> + <kbd>Y</kbd>，然後 <kbd>Enter</kbd>）。
 
-## Step 3: Update the Pacman Database
+## 步驟 3：更新 Pacman 資料庫
 
-After adding the multilib repository, update the pacman database to include the new repository.
+添加多庫存儲庫後，更新 pacman 資料庫以包含新存儲庫。
 
 ```bash
 sudo pacman -Syy
 ```
 
-## Step 4: Install Box86 and Box64
+## 步驟 4：安裝 Box86 和 Box64
 
-Since Steam and many of its games are built for x86 architecture, you need to install box86-rk3xxx and box64-rk3xxx to run them on your ARM device.
+由於 Steam 和許多其遊戲是為 x86 架構構建的，你需要安裝 box86-rk3xxx 和 box64-rk3xxx 以便在你的 ARM 設備上運行它們。
 
 ```bash
 sudo pacman -S box86-rk3xxx box64-rk3xxx
 ```
 
-## Step 5: Install Steam
+## 步驟 5：安裝 Steam
 
-Now, you can install Steam from the multilib repository.
+現在，你可以從多庫存儲庫安裝 Steam。
 
 ```bash
 sudo pacman -S steam
 ```
 
-## Step 6: Running Steam
+## 步驟 6：運行 Steam
 
-With everything installed, you can now run Steam. Simply open steam from the application launcher or type the following command in your terminal:
+一切安裝完成後，你現在可以運行 Steam。 只需從應用啟動器中打開 steam 或在終端中輸入以下命令：
 
 ```bash
 steam
