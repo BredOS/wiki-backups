@@ -14,12 +14,12 @@ dateCreated: 2024-07-20T07:04:41.476Z
 
 ## 目录
 
-1. [更新你的系统](#step-1更新你的系统)
-2. [添加 BredOS Mullib 仓库](#step-2附加组件-multilib-reposy)
-3. [更新Pacman 数据库](#step-3update-the-pacman数据库)
-4. [安装 Box86 和 Box64](#step-5-install-box86-and-box64)
-5. [安装 Steam](#step-4-install-steam)
-6. [运行Steam](#step-6-running-steam)
+1. [更新你的系统](#第-1-步-更新你的系统)
+2. [添加 BredOS Multilib 仓库](#步骤-2-添加-bredos-multilib-存储库)
+3. [更新Pacman 数据库]($第-3-步-更新Pacman-数据库)
+4. [安装 Box86 和 Box64](#第-4-步-安装-Box86-和-Box64)
+5. [安装 Steam](#步骤-5-安装Steam)
+6. [运行Steam](#步骤6-运行-Steam)
 7. [故障排除](#故障排除)
 
 ## 第 1 步：更新您的系统
@@ -76,5 +76,5 @@ sudo pacman -S steam
 通过安装一切，您现在可以运行 Steam。 只需从应用程序启动器打开蒸汽，或在您的终端中输入以下命令：
 
 ```bash
-蒸汽座
+steam
 ```
