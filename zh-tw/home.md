@@ -92,4 +92,4 @@ BredOS 是一個開源項目，歡迎貢獻 您可以通過以下方式進行貢
 - 編寫和改進文檔
 - 在社區論壇和聊天中幫助其他用戶
 
-For more information on contributing, visit our [GitHub](http://github.com/BredOS) or you can message us on [Discord](https://discord.gg/jwhxuyKXaa) or join our [Telegram](https://t.me/bredoslinux).
+關於更多貢獻相關的訊息, 請參閱 [GitHub](http://github.com/BredOS) 或到我們的 [Discord](https://discord.gg/jwhxuyKXaa) / [Telegram](https://t.me/bredoslinux) 群組.
