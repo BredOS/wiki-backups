@@ -13,19 +13,19 @@ dateCreated: 2024-07-19T00:42:37.505Z
 ## Table of contents
 
 1. [Installation Guide](#installation-guide)
-   - [Downloading BredOS](#downloading-bredos)
+   - [下載 BredOS](#下載-bredos)
 
-   - [Creating the Installation Media](#creating-the-installation-media)
+   - [製作安裝媒介](#製作安裝媒介)
 
-   - [Booting from the Installation Media](#booting-from-the-installation-media)
+   - [使用安裝媒介開機](#使用安裝媒介開機)
 
-   - [Installing BredOS](#installing-bredos)
+   - [安裝 BredOS](#安裝-bredos)
 
 ## Installation Guide
 
 ### Downloading BredOS
 
-Download the latest BredOS image for your device from the [official website](https://bredos.org/download.html).
+從[官方網站](https://bredos.org/download.html)下載裝置對應的最新 BredOS 映像
 
 ### Creating the Installation Media
 
@@ -35,20 +35,20 @@ Download the latest BredOS image for your device from the [official website](htt
 ### Booting from the Installation Media
 
 1. Insert the microSD card into your ARM-based single board computer.
-2. Connect the necessary peripherals (keyboard, mouse, monitor) and power on the device.
+2. 將必要的裝置 (鍵盤, 滑鼠, 螢幕) 接上並啟動電腦
 3. The device should boot from the microSD card and load the BredOS installer.
 
 ### Installing BredOS
 
-1. Follow the on-screen instructions to complete the installation process.
-2. Select your preferred language, keyboard layout, and time zone.
-3. Set up a user account and password.
-4. Complete the installation and reboot the device.
+1. 依照畫面上的指示完成安裝
+2. 選取您偏好的語言, 鍵盤配置及時區
+3. 設定使用者帳戶及密碼
+4. 完成安裝並重新啟動電腦
 
-## First Boot and Configuration
+## 初次開機及設定
 
-On the first boot, you may need to complete some initial setup tasks:
+第一次啟動時, 您可能需要完成一些初始的設定
 
 - Configure network settings
-- Update the system using the package manager
-- Install additional software packages as needed
+- 使用包裝管理器更新系統
+- 安裝需要的其他軟體
